@@ -14,7 +14,7 @@ license {
 }
 
 android_app {
-    name: "Rethink",
+    name: "DroneSecure",
     manifest: "app/src/main/AndroidManifest.xml",
     additional_manifests: ["app/src/headless/AndroidManifest.xml"],
     srcs: [

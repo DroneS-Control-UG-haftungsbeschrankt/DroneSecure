@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">RethinkDNS</string>
-    <string name="app_name_small_case">rethink</string>
+    <string name="app_name">DroneSecure</string>
+    <string name="app_name_small_case">dronesecure</string>
     <string name="title_settings">Einstellungen</string>
     <string name="title_about">Über</string>
     <string name="about_title_desc">Netzwerksicherheitsbedrohungen erkennen und blockieren</string>
@@ -172,7 +172,7 @@
     <string name="settings_https_disabled_error">Verbunden mit %1$s. Ausschalten, um fortzufahren.</string>
     <string name="orbot_install_dialog_neutral">Webseite</string>
     <string name="settings_socks5_disabled_error">Verbunden mit %1$s. Ausschalten, um fortzufahren.</string>
-    <string name="settings_autostart_bootup_desc">RethinkDNS beim Einschalten des Geräts starten, wenn es beim Herunterfahren lief.</string>
+    <string name="settings_autostart_bootup_desc">DroneSecure beim Einschalten des Geräts starten, wenn es beim Herunterfahren lief.</string>
     <string name="slide_1_title">Kostenlos und quelloffen</string>
     <string name="settings_ptrans_heading">IPv4-Ausgang erzwingen</string>
     <string name="settings_socks5_heading">SOCKS5-Proxy einrichten</string>
