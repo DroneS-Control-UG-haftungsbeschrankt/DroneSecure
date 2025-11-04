@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Modified by DroneS Control: updated app branding -->
     <string name="title_about">Про нас</string>
     <string name="title_settings">Налаштуваннях</string>
     <string name="pause_title_desc">дрімаю…</string>
@@ -19,8 +20,8 @@
     <string name="firewall_mode_notification_title">Захищено! Підключено до Брандмауера.</string>
     <string name="always_on_dialog_positive">Зупинити</string>
     <string name="always_on_dialog_neutral">Налаштуваннях</string>
-    <string name="app_name">RethinkDNS</string>
-    <string name="app_name_small_case">rethink</string>
+    <string name="app_name">DroneSecure by DroneS Control</string>
+    <string name="app_name_small_case">dronesecure by drones control</string>
     <string name="settings_title_desc">DNS та брандмауер, що легко налаштовуються</string>
     <string name="always_on_dialog_lockdown_stop_message">Rethink запускає VPN у режимі <i>Блокування</i>. Його зупинка призведе до втрати підключення до Інтернету для цього профілю користувача. Ви все одно хочете продовжити\?</string>
     <string name="private_dns_dialog_heading">Вимкнути Приватний DNS</string>

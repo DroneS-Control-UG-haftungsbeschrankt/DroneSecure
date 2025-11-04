@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Modified by DroneS Control: updated app branding -->
     <string name="blocklist_update_check_not_required">Bloklijsten zijn al op de laatste versie.</string>
     <string name="alert_firewall_accessibility_explanation">RethinkDNS gebruikt de toegankelijkheidsdienst om bij te houden welke apps in gebruik zijn (voorgrond) versus die welke niet in gebruik zijn (achtergrond).
 \n
@@ -93,8 +94,8 @@
     <string name="info_dialog_rethink_toast_msg">Gekopieerd als RDNS+ DNS-over-HTTPS URL</string>
     <string name="settings_enable_logs_desc">Sla DNS- en firewall-logs lokaal op het apparaat op.</string>
     <string name="app_mode_choose">Kies de modus</string>
-    <string name="app_name">RethinkDNS</string>
-    <string name="app_name_small_case">rethink</string>
+    <string name="app_name">DroneSecure by DroneS Control</string>
+    <string name="app_name_small_case">dronesecure by drones control</string>
     <string name="title_settings">Instellingen</string>
     <string name="pause_title_desc">een dutje doen…</string>
     <string name="about_title_desc">Detecteer en blokkeer netwerkbeveiligingsbedreigingen</string>

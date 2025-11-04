@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">RethinkDNS</string>
-    <string name="app_name_small_case">rethink</string>
+    <!-- Modified by DroneS Control: updated app branding -->
+    <string name="app_name">DroneSecure by DroneS Control</string>
+    <string name="app_name_small_case">dronesecure by drones control</string>
     <string name="fapps_unmetered_block_dialog_message">¿Bloquear las conexiones en la red sin límites (WiFi) para las aplicaciones en la <i>lista</i>\?</string>
     <string name="unicode_question_sign">❔</string>
     <string name="network_log_app_name_unnamed">Sin nombre (%1$s)</string>

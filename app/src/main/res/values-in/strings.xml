@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Modified by DroneS Control: updated app branding -->
     <string name="next">Selanjutnya</string>
     <string name="always_on_dialog">\"VPN Selalu-Menyala\" telah dinyalakan di perangkat ini. Untuk menjalankan Rethink, silakan masuk ke Pengaturan dan matikan \"VPN Selalu-Menyala\".</string>
     <string name="always_on_dialog_neutral">Pengaturan</string>
@@ -36,7 +37,7 @@
     <string name="always_on_dialog_stop_heading">VPN Selalu-Menyala</string>
     <string name="univ_firewall_dialog_title">Hapus aturan IP\?</string>
     <string name="connection_http3">HTTP3</string>
-    <string name="app_name_small_case">rethink</string>
+    <string name="app_name_small_case">dronesecure by drones control</string>
     <string name="rdns_plus">RDNS Plus</string>
     <string name="always_on_dialog_positive_btn">Masuk ke Pengaturan</string>
     <string name="settings_enable_logs">Aktifkan pencatatan riwayat di perangkat</string>
@@ -174,7 +175,7 @@
     <string name="new_app_notification_action_deny">Tetap memblok</string>
     <string name="about_web">tautan</string>
     <string name="about_whats_new">Yang baru di versi %1$s</string>
-    <string name="app_name">RethinkDNS</string>
+    <string name="app_name">DroneSecure by DroneS Control</string>
     <string name="unicode_question_sign">❔</string>
     <string name="fav_icon">ikon_fav</string>
     <string name="firewall_rule_unknown">Sumber Tidak Diketahui</string>

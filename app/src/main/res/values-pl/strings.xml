@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">RethinkDNS</string>
+    <!-- Modified by DroneS Control: updated app branding -->
+    <string name="app_name">DroneSecure by DroneS Control</string>
     <string name="title_about">O Rethink</string>
     <string name="title_settings">Ustawienia</string>
     <string name="slide_2_desc">RethinkDNS to najłatwiejszy sposób monitorowania aktywności sieciowej, omijania cenzury Internetu i zapory sieciowej na urządzeniu z Androidem.</string>
@@ -119,7 +120,7 @@
     <string name="ssv_most_blocked_domain_heading" description="This label will appear on the stats screen as a header for most blocked domains" translatable="true">najczęściej blokowane domeny</string>
     <string name="ssv_toast_start_rethink" description="This label will appear on the stats screen as toast to start Rethink app">Uruchom Rethink, aby kontynuować</string>
     <string name="ssv_see_more">Pokaż Wszystko</string>
-    <string name="app_name_small_case">rethink</string>
+    <string name="app_name_small_case">dronesecure by drones control</string>
     <string name="txt_home">Strona główna</string>
     <string name="settings_allow_bypass_heading">Włącz widoczność sieci</string>
     <string name="app_mode_dns_low_battery" translatable="true">DNS (oszczędzanie baterii)</string>

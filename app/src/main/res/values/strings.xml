@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name" translatable="false">DroneSecure</string>
-    <string name="app_name_small_case" translatable="false">dronesecure</string>
+    <!-- Modified by DroneS Control: updated app branding -->
+    <string name="app_name" translatable="false">DroneSecure by DroneS Control</string>
+    <string name="app_name_small_case" translatable="false">dronesecure by drones control</string>
     <string name="title_about" translatable="true">About</string>
     <string name="title_settings" translatable="true">Settings</string>
     <string name="title_statistics" translatable="true">Stats</string>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Modified by DroneS Control: updated app branding -->
     <string name="title_about" translatable="true">درباره</string>
     <string name="settings_title_desc" translatable="true">یک دی‌ان‌اس و دیوار آتش با قابلیت شخصی سازی بسیار</string>
     <string name="about_title_desc" translatable="true">تهدیدات امنیتی شبکه را تشخیص و مسدود کنید</string>

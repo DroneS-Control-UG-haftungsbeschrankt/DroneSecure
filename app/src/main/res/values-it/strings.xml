@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Modified by DroneS Control: updated app branding -->
     <string name="always_on_dialog_lockdown_stop_message">Hai impostato la VPN di Rethink in modalità <i>Obbligatoria</i> dalle impostazioni del dispositivo. Arrestarla potrebbe comportare la perdita della connessione a Internet su questo profilo utente. Vuoi continuare comunque\?</string>
     <string name="dns_crypt_relay_remove_success">Relay DNSCrypt cancellato.</string>
     <string name="dns_proxy_remove_dialog_title">Eliminare il proxy DNS\?</string>
@@ -12,8 +13,8 @@
     <string name="block">blocca</string>
     <string name="status_app_error">errore dell\'app</string>
     <string name="status_dns_error">errore del dns</string>
-    <string name="app_name">RethinkDNS</string>
-    <string name="app_name_small_case">rethink</string>
+    <string name="app_name">DroneSecure by DroneS Control</string>
+    <string name="app_name_small_case">dronesecure by drones control</string>
     <string name="title_about">Info</string>
     <string name="title_settings">Impostazioni</string>
     <string name="pause_title_desc">faccio un pisolino…</string>

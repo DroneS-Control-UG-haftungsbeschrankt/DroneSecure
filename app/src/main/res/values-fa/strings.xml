@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Modified by DroneS Control: updated app branding -->
     <string name="title_settings">تنظیمات</string>
     <string name="txt_home">خانه</string>
     <string name="always_on_dialog_neutral">تنظیمات</string>
@@ -10,7 +11,7 @@
     <string name="pause_mode_notification_title">متوقف شد! برنامه های مسدود شده همچنان دیوار آتش می شوند.</string>
     <string name="orbot_install_dialog_message">Orbot ویژگی ها و عملکرد Tor را به اندروید می آورد.</string>
     <string name="pause_text">متوقف شده</string>
-    <string name="app_name">RethinkDNS</string>
+    <string name="app_name">DroneSecure by DroneS Control</string>
     <string name="settings_title_desc">DNS و فایروال بسیار قابل تنظیم</string>
     <string name="orbot_install_dialog_positive">نصب</string>
     <string name="about_title_desc">شناسایی و مسدود کردن تهدیدات امنیتی شبکه</string>
@@ -35,7 +36,7 @@
     <string name="slide_1_title">رایگان و متن‌باز</string>
     <string name="hybrid_mode_info_title">DNS + دیوار آتش</string>
     <string name="dns_mode_info_title">DNS</string>
-    <string name="app_name_small_case">rethink</string>
+    <string name="app_name_small_case">dronesecure by drones control</string>
     <string name="firewall_mode_info_title">دیوار آتش</string>
     <string name="status_protected_with_tor_private_dns">محافظت شده با tor و dns خصوصی</string>
     <string name="block">مسدود کردن</string>

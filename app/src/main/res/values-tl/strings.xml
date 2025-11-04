@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Modified by DroneS Control: updated app branding -->
     <string name="settings_title_desc" translatable="true">Isang DNS at Firewall na may mataas na antas ng pagsasaayos</string>
     <string name="about_title_desc" translatable="true">Makita at harangan ang mga banta sa seguridad ng network</string>
     <string name="txt_home" translatable="true">Tahanan</string>

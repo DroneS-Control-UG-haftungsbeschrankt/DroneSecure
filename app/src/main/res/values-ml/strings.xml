@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Modified by DroneS Control: updated app branding -->
     <string name="next">അടുത്തത്</string>
     <string name="finish">തീര്ക്കുക</string>
     <string name="slide_2_title">സ്വാഗതം</string>

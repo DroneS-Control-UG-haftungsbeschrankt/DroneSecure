@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">RethinkDNS</string>
+    <!-- Modified by DroneS Control: updated app branding -->
+    <string name="app_name">DroneSecure by DroneS Control</string>
     <string name="settings_title_desc">DNS и Firewall с много възможности за персонализиране</string>
     <string name="accessibility_service_description">Rethink използва услугата за достъпност при засичането и блокирането на приложенията на заден план. Rethink не събира или продава никаква информация.</string>
     <string name="slide_2_desc">Rethink е най-лесният начин да наблюдавате мрежовата активност, да заобиколите интернет цензурата и приложенията за защитна стена на вашето устройство с Android.</string>
@@ -24,7 +25,7 @@
     <string name="alert_firewall_accessibility_explanation">Rethink използва услуга за достъпност, за да проследява кои приложения се използват (на преден план) спрямо тези, които не се използват (на заден план).
 \n
 \nRethink не събира никаква информация и не ви шпионира по никакъв начин.</string>
-    <string name="app_name_small_case">rethink</string>
+    <string name="app_name_small_case">dronesecure by drones control</string>
     <string name="title_about">За Rethink</string>
     <string name="title_settings">Настройки</string>
     <string name="title_statistics">Статистики</string>

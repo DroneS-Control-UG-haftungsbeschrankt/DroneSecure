@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Modified by DroneS Control: updated app branding -->
     <string name="status_protected" description="This is a large message in a reassuring color.  It indicates that DNS queries can't be surveilled or modified in transit.">protegido</string>
     <string name="status_no_internet">sem Internet</string>
     <string name="status_failing" description="This text appears if the connection is currently not working correctly. [CHAR_LIMIT=NONE]">falha</string>
@@ -241,7 +242,7 @@
     <string name="conn_track_clear_logs_message">Isto elimina os registos da rede mas não as regras de firewall. Esta operação não é reversível. Continuar?</string>
     <string name="info_dialog_url_copy_toast_msg">URL copiado</string>
     <string name="bypass_universal">contorno universal</string>
-    <string name="app_name">RethinkDNS</string>
+    <string name="app_name">DroneSecure by DroneS Control</string>
     <string name="title_about">Acerca</string>
     <string name="orbot_bs_status_trying_connect">A configurar Orbot…</string>
     <string name="orbot_install_dialog_title">Instalar Orbot?</string>
@@ -278,7 +279,7 @@
     <string name="pause_title_desc">A descansar…</string>
     <string name="accessibility_service_description">Rethink usa o serviço de acessibilidade para detetar e proteger aplicações em segundo plano. Rethink não recolhe nem vende quaisquer informações.</string>
     <string name="orbot_both">TCP + Proxy HTTP</string>
-    <string name="app_name_small_case">rethink</string>
+    <string name="app_name_small_case">dronesecure by drones control</string>
     <string name="settings_lock_down_mode_desc">Determinadas opções são desativadas quando a VPN está no modo de bloqueio. <u>Consulte as definições VPN</u>.</string>
     <string name="settings_https_desc">Encaminhar ligações para o \'endpoint\' HTTP(S) CONNECT.</string>
     <string name="orbot_http">Proxy HTTP</string>

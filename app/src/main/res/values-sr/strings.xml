@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Modified by DroneS Control: updated app branding -->
     <string name="local_blocklist_redownload_desc" translatable="true">Блоклиста на уређају је већ на последњој верзији v%1$s.</string>
     <string name="show_logs_disabled_network_message" translatable="true">Записивање конекција је онемогућено. За поновно омогућавање, идите у <i>подешавања</i> и укључите <i>Омогући записивање на уређају.</i></string>
     <string name="show_logs_disabled_dns_message" translatable="true">Записивање DNS захтева је онемогућено. За поновно омогућавање, идите у <i>подешавања</i> и укључите <i>Омогући записивање на уређају.</i></string>

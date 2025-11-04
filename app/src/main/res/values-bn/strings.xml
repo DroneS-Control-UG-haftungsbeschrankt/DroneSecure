@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Modified by DroneS Control: updated app branding -->
     <string name="settings_allow_bypass_heading">বাইপাসের অনুমতি দিন</string>
     <string name="settings_allow_bypass_desc">রিথিঙ্কডিএনএস ফায়ারওয়াল অন-ডিমান্ড বাইপাস করার জন্য অনুরোধ করা অ্যাপগুলিকে অনুমতি দিন। জুম এবং হোয়াটসঅ্যাপের মতো কিছু অডিও/ভিডিও কনফারেন্স অ্যাপের সঠিকভাবে কাজ করার জন্য অন-ডিমান্ড বাইপাসের প্রয়োজন হতে পারে।</string>
     <string name="settings_lock_down_mode_desc">VPN যখন লকডাউন মোডে চলছে তখন বাইপাস, বা সেটআপ প্রক্সিগুলিকে অনুমতি দেওয়া যাবে না৷ <u>VPN সেটিংসে যান</u>।</string>
@@ -355,9 +356,9 @@
     <string name="about_dialog_neutral_button">বৈশিষ্ট্য প্রস্তাব করুন</string>
     <string name="univ_firewall_rule_1">ডিভাইস লক হয়ে গেলে সমস্ত অ্যাপ ব্লক করুন</string>
     <string name="univ_firewall_rule_7">IPv6 তে IPv4 ব্লক করুন (পরীক্ষামূলক)</string>
-    <string name="app_name">RethinkDNS</string>
+    <string name="app_name">DroneSecure by DroneS Control</string>
     <string name="pause_title_desc">ঘুমানো…</string>
-    <string name="app_name_small_case">rethink</string>
+    <string name="app_name_small_case">dronesecure by drones control</string>
     <string name="title_settings">পছন্দসমূহ</string>
     <string name="title_about">বিস্তারিত</string>
     <string name="finish">শেষ করুন</string>

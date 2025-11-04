@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Modified by DroneS Control: updated app branding -->
     <string name="orbot_socks5_desc">將所有 TCP 連線轉發去 Orbot。</string>
     <string name="orbot_bs_status_1">將 %1$s 條連線轉發去 Orbot。</string>
     <string name="orbot_both">TCP + HTTP 代理</string>
@@ -76,8 +77,8 @@
     <string name="ada_app_exclude">排除</string>
     <string name="rethink_sky_desc">超過 280 個地方；更長嘅在線時間；喺 cloudflare.com 上面行嘅中間解析服務</string>
     <string name="dc_rethink_dns">Rethink DNS</string>
-    <string name="app_name">RethinkDNS</string>
-    <string name="app_name_small_case">rethink</string>
+    <string name="app_name">DroneSecure by DroneS Control</string>
+    <string name="app_name_small_case">dronesecure by drones control</string>
     <string name="title_about">關於</string>
     <string name="title_settings">設定</string>
     <string name="settings_title_desc">一款可以高度自訂嘅 DNS 同防火牆軟件</string>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Modified by DroneS Control: updated app branding -->
     <string name="about_title_desc" translatable="true">Tunnista ja estä verkon tietoturvauhat</string>
     <string name="lbl_cancel" translatable="true">Peruuta</string>
     <string name="next" translatable="true">Seuraava</string>

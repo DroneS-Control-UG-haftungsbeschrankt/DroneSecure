@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Modified by DroneS Control: updated app branding -->
     <string name="txt_home">Hjem</string>
     <string name="block">blokker</string>
     <string name="slide_2_title">Velkommen</string>
-    <string name="app_name">RethinkDNS</string>
+    <string name="app_name">DroneSecure by DroneS Control</string>
     <string name="title_settings">Innstillinger</string>
     <string name="title_about">Om</string>
     <string name="pause_title_desc">tar en lur …</string>
@@ -420,7 +421,7 @@
     <string name="fapps_unmetered_unblock_dialog_title">Tillat for fri bruk</string>
     <string name="rt_download_start">Laster ned svartelister …</string>
     <string name="brbs_backup_dialog_failure_message">Kunne ikke sikkerhetskopiere. Prøv igjen\?</string>
-    <string name="app_name_small_case">rethink</string>
+    <string name="app_name_small_case">dronesecure by drones control</string>
     <string name="always_on_dialog_stop_message">«Alltid påslått VPN» er påslått for Rethink. Vil du stoppe Rethink likevel\?</string>
     <string name="settings_ip_network_desc">Velg mellom Internett-protokollversjoner.</string>
     <string name="settings_http_proxy_error_text4">Kunne ikke koble til vert. Prøv igjen.</string>

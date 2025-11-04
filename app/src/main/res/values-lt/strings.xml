@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Modified by DroneS Control: updated app branding -->
     <string name="title_settings">Nustatymai</string>
     <string name="dns_explanation_dns_connected">Prisijungta prie RethinkDNS</string>
     <string name="dns_explanation_firewall_connected">Prisijungta prie ugniasienės</string>
-    <string name="app_name_small_case">rethink</string>
+    <string name="app_name_small_case">dronesecure by drones control</string>
     <string name="universal_firewall_explanation">Taikykite ugniasienės taisykles visoms programėlėms pagal įrenginio įvykius, pvz., ugniasienę, kai įrenginys užrakintas arba kai tam tikra programėlė nenaudojama.</string>
-    <string name="app_name">RethinkDNS</string>
+    <string name="app_name">DroneSecure by DroneS Control</string>
     <string name="title_about">Apie</string>
     <string name="about_title_desc">Aptik ir blokuok tinklo saugumo grėsmes</string>
     <string name="txt_home">Pagrindinis</string>

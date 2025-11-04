@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Modified by DroneS Control: updated app branding -->
     <string name="settings_ip_dialog_title">Escolha a versão IP</string>
     <string name="settings_theme_desc">Tema escuro/claro</string>
     <string name="settings_dns_proxy_dialog_password">Senha</string>
@@ -169,7 +170,7 @@
     <string name="block">bloquear</string>
     <string name="status_no_internet">sem internet</string>
     <string name="title_about">Sobre</string>
-    <string name="app_name">RethinkDNS</string>
+    <string name="app_name">DroneSecure by DroneS Control</string>
     <string name="title_settings">Configurações</string>
     <string name="accessibility_service_description">Rethink usa o serviço de acessibilidade para detectar e implementar firewall para aplicativos em segundo plano. Rethink não coleta nem vende qualquer tipo de informação.</string>
     <string name="always_on_dialog_lockdown_stop_message">Rethink está executando a VPN no modo <i>Restrito</i>. Ao interrompê-lo você perderá a conexão com a internet neste perfil de usuário. Você quer continuar mesmo assim?</string>
@@ -221,7 +222,7 @@
     <string name="settings_general_header">geral</string>
     <string name="settings_autostart_bootup_desc">Ao ligar o dispositivo, inicie o Rethink se ele estava em execução antes de desligar.</string>
     <string name="isolate">isolar</string>
-    <string name="app_name_small_case">rethink</string>
+    <string name="app_name_small_case">dronesecure by drones control</string>
     <string name="pause_title_desc">descansando…</string>
     <string name="settings_title_desc">DNS + Firewall altamente personalizável</string>
     <string name="about_title_desc">Detectar e bloquear ameaças à segurança da rede</string>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Modified by DroneS Control: updated app branding -->
     <string name="alert_firewall_accessibility_exception">فشل فتح إعدادات الوصول. حاول مرة أخرى في وقت لاحق!</string>
     <string name="brave_dns_connect_mode_change_firewall">اختر الوضع.</string>
     <string name="brave_dns_connect_mode_change_dns">اختر الوضع.</string>
@@ -592,7 +593,7 @@
 \n
 \n%2$s</string>
     <string name="firewall_status_isolate">معزول</string>
-    <string name="app_name_small_case">إعادة التفكير</string>
+    <string name="app_name_small_case">dronesecure by drones control</string>
     <string name="about_title_desc">كشف ومنع التهديدات الأمنية للشبكة</string>
     <string name="bypass_universal">تجاوز كلي</string>
     <string name="firewall_mode_notification_title">محمي! متصل بجدار الحماية.</string>
@@ -601,7 +602,7 @@
     <string name="title_settings">الإعدادات</string>
     <string name="status_failing" description="This text appears if the connection is currently not working correctly. [CHAR_LIMIT=NONE]">يفشل</string>
     <string name="status_dns_server_down">خادم نظام أسماء النطاقات متوقف</string>
-    <string name="app_name">إعادة التفكير</string>
+    <string name="app_name">DroneSecure by DroneS Control</string>
     <string name="pause_title_desc">يأخذ غفوة…</string>
     <string name="next">التالي</string>
     <string name="slide_2_title">أهلاً وسهلاً</string>

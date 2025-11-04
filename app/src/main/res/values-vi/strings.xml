@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Modified by DroneS Control: updated app branding -->
     <string name="title_settings" translatable="true">Cài đặt</string>
     <string name="title_statistics" translatable="true">Thống kê</string>
     <string name="about_title_desc" translatable="true">Phát hiện và ngăn chặn các mối đe doạ an ninh mạng</string>

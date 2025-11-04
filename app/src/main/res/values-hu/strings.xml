@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">RethinkDNS</string>
+    <!-- Modified by DroneS Control: updated app branding -->
+    <string name="app_name">DroneSecure by DroneS Control</string>
     <string name="title_about" translatable="true">Rólunk</string>
     <string name="about_title_desc" translatable="true">Hálózatbiztonsági fenyegetések észlelése és blokkolása</string>
     <string name="lbl_rules" translatable="true">szabályok</string>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Modified by DroneS Control: updated app branding -->
     <string name="slide_1_title">自由且开源</string>
     <string name="slide_2_desc">Rethink 是现 Android 设备上最易使用的监测网络活动、绕过互连网审查与拦截应用程序的防火墙软件。</string>
     <string name="finish">完成</string>
@@ -569,9 +570,9 @@
     <string name="about_docs_link">https://docs.rethinkdns.com/</string>
     <string name="ada_app_status_allow">已放行</string>
     <string name="lbbs_copy">复制为 RDNS+ URL</string>
-    <string name="app_name">RethinkDNS</string>
+    <string name="app_name">DroneSecure by DroneS Control</string>
     <string name="settings_title_desc">一款可高度自定义的 DNS 与防火墙软件</string>
-    <string name="app_name_small_case">rethink</string>
+    <string name="app_name_small_case">dronesecure by drones control</string>
     <string name="title_about">关于</string>
     <string name="next">下一步</string>
     <string name="isolate">隔离</string>

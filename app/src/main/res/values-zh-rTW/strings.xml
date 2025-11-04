@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">RethinkDNS</string>
-    <string name="app_name_small_case">rethink</string>
+    <!-- Modified by DroneS Control: updated app branding -->
+    <string name="app_name">DroneSecure by DroneS Control</string>
+    <string name="app_name_small_case">dronesecure by drones control</string>
     <string name="title_about">關於</string>
     <string name="title_settings">設定</string>
     <string name="pause_title_desc">小憩一下…</string>

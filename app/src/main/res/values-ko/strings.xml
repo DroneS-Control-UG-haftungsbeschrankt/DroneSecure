@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Modified by DroneS Control: updated app branding -->
     <string name="title_settings" translatable="true">설정</string>
     <string name="title_statistics" translatable="true">통계</string>
     <string name="pause_title_desc" translatable="true">낮잠 자는 중…</string>

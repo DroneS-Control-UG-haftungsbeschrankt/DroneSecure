@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name_small_case">rethink</string>
+    <!-- Modified by DroneS Control: updated app branding -->
+    <string name="app_name_small_case">dronesecure by drones control</string>
     <string name="title_about">Hakkında</string>
     <string name="pause_title_desc">ara veriliyor…</string>
     <string name="settings_title_desc">Son derece özelleştirilebilir bir DNS ve güvenlik duvarı</string>
@@ -16,7 +17,7 @@
     <string name="notification_content" description="Indicates what will happen if the user taps the notification.">Koruma ayarını değiştirmek için dokunun</string>
     <string name="dns_mode_notification_title">Korunuyor! Hızlı ve Güvenli DNS\'e Bağlandı.</string>
     <string name="firewall_mode_notification_title">Korunuyor! Güvenlik Duvarına Bağlandı.</string>
-    <string name="app_name">RethinkDNS</string>
+    <string name="app_name">DroneSecure by DroneS Control</string>
     <string name="hybrid_mode_notification_title">Korunuyor! DNS ve Güvenlik Duvarına Bağlandı.</string>
     <string name="title_settings">Ayarlar</string>
     <string name="about_title_desc">Ağ güvenliği tehditlerini tespit edin ve engelleyin</string>
