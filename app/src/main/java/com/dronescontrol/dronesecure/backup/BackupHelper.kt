@@ -38,7 +38,7 @@ class BackupHelper {
         const val INTENT_TYPE_XZIP = "application/x-zip"
 
         // file name for the backup file
-        const val BACKUP_FILE_NAME = "Rethink_"
+        const val BACKUP_FILE_NAME = "DroneSecure_"
 
         // date format for backup  file name
         const val BACKUP_FILE_NAME_DATETIME = "yyMMddHHmmss"
@@ -50,7 +50,7 @@ class BackupHelper {
         const val SHARED_PREFS_BACKUP_FILE_NAME = "shared_prefs_backup.txt"
 
         // metadata file name
-        const val METADATA_FILENAME = "rethink_backup.txt"
+        const val METADATA_FILENAME = "dronesecure_backup.txt"
 
         // data builder uri string for restore worker
         const val DATA_BUILDER_RESTORE_URI = "restoreFileUri"

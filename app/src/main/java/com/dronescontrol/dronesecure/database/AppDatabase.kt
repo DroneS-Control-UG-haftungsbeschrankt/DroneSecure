@@ -60,7 +60,7 @@ import com.dronescontrol.dronesecure.util.Constants
 abstract class AppDatabase : RoomDatabase() {
 
     companion object {
-        const val DATABASE_NAME = "bravedns.db"
+        const val DATABASE_NAME = "dronesecure.db"
         private const val DATABASE_PATH = "database/rethink_v22.db"
         private const val PRAGMA = "pragma wal_checkpoint(full)"
 
@@ -75,6 +75,7 @@ abstract class AppDatabase : RoomDatabase() {
                 .createFromAsset(DATABASE_PATH)
                 .addCallback(roomCallback)
                 .setJournalMode(JournalMode.AUTOMATIC)
+                .fallbackToDestructiveMigration()
                 .addMigrations(MIGRATION_1_2)
                 .addMigrations(MIGRATION_2_3)
                 .addMigrations(MIGRATION_3_4)
