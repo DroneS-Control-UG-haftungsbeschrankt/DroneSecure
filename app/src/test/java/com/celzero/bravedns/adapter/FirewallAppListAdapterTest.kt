@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.celzero.bravedns.adapter
+package com.dronescontrol.dronesecure.adapter
 
 import android.content.Context
 import android.view.ViewGroup
 import androidx.lifecycle.LifecycleOwner
 import androidx.test.core.app.ApplicationProvider
-import com.celzero.bravedns.database.AppInfo
-import com.celzero.bravedns.database.AppInfoRepository
-import com.celzero.bravedns.service.FirewallManager
-import com.celzero.bravedns.service.PersistentState
-import com.celzero.bravedns.service.ProxyManager
+import com.dronescontrol.dronesecure.database.AppInfo
+import com.dronescontrol.dronesecure.database.AppInfoRepository
+import com.dronescontrol.dronesecure.service.FirewallManager
+import com.dronescontrol.dronesecure.service.PersistentState
+import com.dronescontrol.dronesecure.service.ProxyManager
 import io.mockk.*
 import io.mockk.impl.annotations.MockK
 import junit.framework.TestCase.assertEquals

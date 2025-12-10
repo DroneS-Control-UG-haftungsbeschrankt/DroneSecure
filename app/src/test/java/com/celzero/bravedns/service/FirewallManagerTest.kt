@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.celzero.bravedns.service
+package com.dronescontrol.dronesecure.service
 
 import android.app.KeyguardManager
 import android.content.Context
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.MutableLiveData
-import com.celzero.bravedns.R
-import com.celzero.bravedns.database.AppInfo
-import com.celzero.bravedns.database.AppInfoRepository
-import com.celzero.bravedns.database.AppInfoRepository.Companion.NO_PACKAGE_PREFIX
-import com.celzero.bravedns.util.AndroidUidConfig
-import com.celzero.bravedns.util.Constants.Companion.RETHINK_PACKAGE
-import com.celzero.bravedns.util.OrbotHelper
+import com.dronescontrol.dronesecure.R
+import com.dronescontrol.dronesecure.database.AppInfo
+import com.dronescontrol.dronesecure.database.AppInfoRepository
+import com.dronescontrol.dronesecure.database.AppInfoRepository.Companion.NO_PACKAGE_PREFIX
+import com.dronescontrol.dronesecure.util.AndroidUidConfig
+import com.dronescontrol.dronesecure.util.Constants.Companion.RETHINK_PACKAGE
+import com.dronescontrol.dronesecure.util.OrbotHelper
 import io.mockk.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
@@ -240,7 +240,7 @@ class FirewallManagerTest : KoinTest {
     private fun clearFirewallManagerState() {
         try {
             // Clear the global state more thoroughly using reflection
-            val globalVariableClass = Class.forName("com.celzero.bravedns.service.FirewallManager\$GlobalVariable")
+            val globalVariableClass = Class.forName("com.dronescontrol.dronesecure.service.FirewallManager\$GlobalVariable")
             val appInfosField = globalVariableClass.getDeclaredField("appInfos")
             appInfosField.isAccessible = true
             @Suppress("UNCHECKED_CAST")

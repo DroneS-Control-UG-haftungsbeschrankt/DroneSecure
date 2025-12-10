@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.celzero.bravedns.adapter
+package com.dronescontrol.dronesecure.adapter
 
 import android.content.Context
 import android.view.ViewGroup
@@ -21,17 +21,17 @@ import android.widget.LinearLayout
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
 import androidx.test.core.app.ApplicationProvider
-import com.celzero.bravedns.adapter.OneWgConfigAdapter.DnsStatusListener
-import com.celzero.bravedns.database.WgConfigFiles
-import com.celzero.bravedns.database.WgHopMap
-import com.celzero.bravedns.service.ProxyManager
-import com.celzero.bravedns.service.ProxyManager.ID_WG_BASE
-import com.celzero.bravedns.service.VpnController
-import com.celzero.bravedns.service.WireguardManager
-import com.celzero.bravedns.wireguard.WgHopManager
-import com.celzero.bravedns.wireguard.WgInterface
-import com.celzero.bravedns.util.UIUtils
-import com.celzero.bravedns.net.doh.Transaction
+import com.dronescontrol.dronesecure.adapter.OneWgConfigAdapter.DnsStatusListener
+import com.dronescontrol.dronesecure.database.WgConfigFiles
+import com.dronescontrol.dronesecure.database.WgHopMap
+import com.dronescontrol.dronesecure.service.ProxyManager
+import com.dronescontrol.dronesecure.service.ProxyManager.ID_WG_BASE
+import com.dronescontrol.dronesecure.service.VpnController
+import com.dronescontrol.dronesecure.service.WireguardManager
+import com.dronescontrol.dronesecure.wireguard.WgHopManager
+import com.dronescontrol.dronesecure.wireguard.WgInterface
+import com.dronescontrol.dronesecure.util.UIUtils
+import com.dronescontrol.dronesecure.net.doh.Transaction
 import io.mockk.*
 import io.mockk.impl.annotations.MockK
 import org.junit.Assert.*
@@ -51,7 +51,7 @@ import java.util.*
 
 @OptIn(ExperimentalCoroutinesApi::class)
 @RunWith(RobolectricTestRunner::class)
-@org.robolectric.annotation.Config(sdk = [28], shadows = [com.celzero.bravedns.shadows.ShadowRouterStats::class])
+@org.robolectric.annotation.Config(sdk = [28], shadows = [com.dronescontrol.dronesecure.shadows.ShadowRouterStats::class])
 class WgConfigAdapterTest : KoinTest {
 
     private val testDispatcher = UnconfinedTestDispatcher()
@@ -170,8 +170,8 @@ class WgConfigAdapterTest : KoinTest {
             modules(
                 module {
                     // Add specific repository mocks that the managers need
-                    single { mockk<com.celzero.bravedns.database.WgConfigFilesRepository>(relaxed = true) }
-                    single { mockk<com.celzero.bravedns.database.WgHopMapRepository>(relaxed = true) }
+                    single { mockk<com.dronescontrol.dronesecure.database.WgConfigFilesRepository>(relaxed = true) }
+                    single { mockk<com.dronescontrol.dronesecure.database.WgHopMapRepository>(relaxed = true) }
 
                     // Add other potential dependencies
                     single<Any> { mockk<Any>(relaxed = true) } // Generic fallback
@@ -273,7 +273,7 @@ class WgConfigAdapterTest : KoinTest {
         assertNull("Expected null config", config)
 
         // Test with mock return value - use correct Config? type
-        val mockConfig = mockk<com.celzero.bravedns.wireguard.Config>(relaxed = true)
+        val mockConfig = mockk<com.dronescontrol.dronesecure.wireguard.Config>(relaxed = true)
         every { WireguardManager.getConfigById(2) } returns mockConfig
         val config2 = WireguardManager.getConfigById(2)
         assertNotNull("Expected non-null config", config2)
@@ -487,7 +487,7 @@ class WgConfigAdapterTest : KoinTest {
         every { amneziaInterface.getS1() } returns Optional.of(5)
         every { amneziaInterface.getS2() } returns Optional.of(15)
 
-        val mockConfig = mockk<com.celzero.bravedns.wireguard.Config>()
+        val mockConfig = mockk<com.dronescontrol.dronesecure.wireguard.Config>()
         every { mockConfig.getInterface() } returns amneziaInterface
         every { WireguardManager.getConfigById(1) } returns mockConfig
 

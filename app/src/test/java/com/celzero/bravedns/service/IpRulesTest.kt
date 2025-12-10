@@ -1,4 +1,4 @@
-package com.celzero.bravedns.service
+package com.dronescontrol.dronesecure.service
 
 import org.junit.Test
 import org.junit.Assert.assertEquals

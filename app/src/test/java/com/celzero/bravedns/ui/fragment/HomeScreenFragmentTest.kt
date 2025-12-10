@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.celzero.bravedns.ui.fragment
+package com.dronescontrol.dronesecure.ui.fragment
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.MutableLiveData
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.celzero.bravedns.data.AppConfig
-import com.celzero.bravedns.database.AppInfo
-import com.celzero.bravedns.scheduler.WorkScheduler
-import com.celzero.bravedns.service.BraveVPNService
-import com.celzero.bravedns.service.FirewallManager
-import com.celzero.bravedns.service.PersistentState
-import com.celzero.bravedns.service.VpnController
-import com.celzero.bravedns.service.WireguardManager
-import com.celzero.bravedns.util.Utilities
+import com.dronescontrol.dronesecure.data.AppConfig
+import com.dronescontrol.dronesecure.database.AppInfo
+import com.dronescontrol.dronesecure.scheduler.WorkScheduler
+import com.dronescontrol.dronesecure.service.BraveVPNService
+import com.dronescontrol.dronesecure.service.FirewallManager
+import com.dronescontrol.dronesecure.service.PersistentState
+import com.dronescontrol.dronesecure.service.VpnController
+import com.dronescontrol.dronesecure.service.WireguardManager
+import com.dronescontrol.dronesecure.util.Utilities
 import com.waseemsabir.betterypermissionhelper.BatteryPermissionHelper
 import io.mockk.Runs
 import io.mockk.coEvery
@@ -57,7 +57,7 @@ import org.robolectric.annotation.Config
 @RunWith(AndroidJUnit4::class)
 @Config(
     sdk = [28],
-    shadows = [com.celzero.bravedns.shadows.ShadowRouterStats::class]
+    shadows = [com.dronescontrol.dronesecure.shadows.ShadowRouterStats::class]
 )
 class HomeScreenFragmentTest : KoinTest {
 
@@ -101,9 +101,9 @@ class HomeScreenFragmentTest : KoinTest {
             mockkObject(BatteryPermissionHelper)
 
             // Mock static methods - removed relaxed parameter
-            mockkStatic("com.celzero.bravedns.util.UIUtils")
-            mockkStatic("com.celzero.bravedns.util.Utilities")
-            mockkStatic("com.celzero.bravedns.scheduler.WorkScheduler")
+            mockkStatic("com.dronescontrol.dronesecure.util.UIUtils")
+            mockkStatic("com.dronescontrol.dronesecure.util.Utilities")
+            mockkStatic("com.dronescontrol.dronesecure.scheduler.WorkScheduler")
             println("✅ Static objects and methods mocked successfully")
         } catch (e: Exception) {
             println("⚠️  Warning: Failed to mock some static objects: ${e.message}")
@@ -219,13 +219,13 @@ class HomeScreenFragmentTest : KoinTest {
             modules(
                 module {
                     // Mock all the dependencies that the services might need
-                    single { mockk<com.celzero.bravedns.database.AppInfoRepository>(relaxed = true) }
-                    single { mockk<com.celzero.bravedns.database.CustomDomainRepository>(relaxed = true) }
-                    single { mockk<com.celzero.bravedns.database.CustomIpRepository>(relaxed = true) }
-                    single { mockk<com.celzero.bravedns.database.WgConfigFilesRepository>(relaxed = true) }
-                    single { mockk<com.celzero.bravedns.database.ProxyEndpointRepository>(relaxed = true) }
-                    single { mockk<com.celzero.bravedns.database.DnsLogRepository>(relaxed = true) }
-                    single { mockk<com.celzero.bravedns.database.ConnectionTrackerRepository>(relaxed = true) }
+                    single { mockk<com.dronescontrol.dronesecure.database.AppInfoRepository>(relaxed = true) }
+                    single { mockk<com.dronescontrol.dronesecure.database.CustomDomainRepository>(relaxed = true) }
+                    single { mockk<com.dronescontrol.dronesecure.database.CustomIpRepository>(relaxed = true) }
+                    single { mockk<com.dronescontrol.dronesecure.database.WgConfigFilesRepository>(relaxed = true) }
+                    single { mockk<com.dronescontrol.dronesecure.database.ProxyEndpointRepository>(relaxed = true) }
+                    single { mockk<com.dronescontrol.dronesecure.database.DnsLogRepository>(relaxed = true) }
+                    single { mockk<com.dronescontrol.dronesecure.database.ConnectionTrackerRepository>(relaxed = true) }
 
                     // Mock the injected dependencies
                     single { mockk<PersistentState>(relaxed = true) }

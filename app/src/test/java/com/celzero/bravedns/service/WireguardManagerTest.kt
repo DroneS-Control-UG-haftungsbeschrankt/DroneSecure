@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.e
  */
-package com.celzero.bravedns.service
+package com.dronescontrol.dronesecure.service
 
 import android.content.Context
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import com.celzero.bravedns.data.AppConfig
-import com.celzero.bravedns.database.WgConfigFilesImmutable
-import com.celzero.bravedns.database.WgConfigFilesRepository
-import com.celzero.bravedns.database.WgHopMapRepository
-import com.celzero.bravedns.service.ProxyManager.ID_WG_BASE
-import com.celzero.bravedns.wireguard.Config as WgConfig
-import com.celzero.bravedns.wireguard.Peer
-import com.celzero.bravedns.wireguard.WgInterface
+import com.dronescontrol.dronesecure.data.AppConfig
+import com.dronescontrol.dronesecure.database.WgConfigFilesImmutable
+import com.dronescontrol.dronesecure.database.WgConfigFilesRepository
+import com.dronescontrol.dronesecure.database.WgHopMapRepository
+import com.dronescontrol.dronesecure.service.ProxyManager.ID_WG_BASE
+import com.dronescontrol.dronesecure.wireguard.Config as WgConfig
+import com.dronescontrol.dronesecure.wireguard.Peer
+import com.dronescontrol.dronesecure.wireguard.WgInterface
 import io.mockk.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi

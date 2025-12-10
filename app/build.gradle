@@ -61,13 +61,13 @@ try {
     keystoreProperties['storePassword'] = ''
 }
 
-android {
+    android {
     compileSdkVersion(36)
     // https://developer.android.com/studio/build/configure-app-module
-    namespace 'com.celzero.bravedns'
+    namespace 'com.dronescontrol.dronesecure'
 
     defaultConfig {
-        applicationId "com.celzero.bravedns"
+        applicationId "com.dronescontrol.dronesecure"
         minSdkVersion(23)
         targetSdkVersion 35
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"

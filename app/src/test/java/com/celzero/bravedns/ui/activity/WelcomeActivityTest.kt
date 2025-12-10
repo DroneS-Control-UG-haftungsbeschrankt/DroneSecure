@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.celzero.bravedns.ui.activity
+package com.dronescontrol.dronesecure.ui.activity
 
 import android.content.Context
 import android.os.Build
@@ -25,8 +25,8 @@ import android.widget.TextView
 import androidx.core.text.HtmlCompat
 import androidx.test.core.app.ApplicationProvider
 import androidx.viewpager.widget.ViewPager
-import com.celzero.bravedns.R
-import com.celzero.bravedns.service.PersistentState
+import com.dronescontrol.dronesecure.R
+import com.dronescontrol.dronesecure.service.PersistentState
 import org.junit.After
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse

@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.celzero.bravedns.wireguard
+package com.dronescontrol.dronesecure.wireguard
 
 import Logger
 import Logger.LOG_TAG_PROXY
-import com.celzero.bravedns.database.WgHopMap
-import com.celzero.bravedns.database.WgHopMapRepository
-import com.celzero.bravedns.service.ProxyManager.ID_WG_BASE
-import com.celzero.bravedns.service.VpnController
-import com.celzero.bravedns.service.WireguardManager
+import com.dronescontrol.dronesecure.database.WgHopMap
+import com.dronescontrol.dronesecure.database.WgHopMapRepository
+import com.dronescontrol.dronesecure.service.ProxyManager.ID_WG_BASE
+import com.dronescontrol.dronesecure.service.VpnController
+import com.dronescontrol.dronesecure.service.WireguardManager
 import io.mockk.*
 import junit.framework.TestCase.assertEquals
 import junit.framework.TestCase.assertFalse
@@ -42,7 +42,7 @@ import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config as RobolectricConfig
 
 // Type alias to resolve ambiguity between WireGuard Config and Robolectric Config
-typealias WgConfig = com.celzero.bravedns.wireguard.Config
+typealias WgConfig = com.dronescontrol.dronesecure.wireguard.Config
 
 @ExperimentalCoroutinesApi
 @RunWith(RobolectricTestRunner::class)
@@ -78,8 +78,8 @@ class WgHopManagerTest : KoinTest {
         startKoin {
             modules(module {
                 single<WgHopMapRepository> { mockRepository }
-                single { mockk<com.celzero.bravedns.database.WgConfigFilesRepository>(relaxed = true) }
-                single { mockk<com.celzero.bravedns.database.AppDatabase>(relaxed = true) }
+                single { mockk<com.dronescontrol.dronesecure.database.WgConfigFilesRepository>(relaxed = true) }
+                single { mockk<com.dronescontrol.dronesecure.database.AppDatabase>(relaxed = true) }
             })
         }
 
